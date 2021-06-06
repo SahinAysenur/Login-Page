@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+$bebe:#e6f2ff;
+$laci: #1f1f70;
+
+@mixin size() {
+    width: 50%;
+    height: 100vh;
+}
+@mixin location(){
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.page{
+ display: flex;
+.back-one{
+ @include size();
+ background-color: $bebe;
+}
+.back-two{
+    @include size();
+    background-color: $laci;
+}
+.container{
+    width: 1200px;
+    height: 750px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    @include location();
+    border-radius: 30px;
+    box-shadow: 0px 12px 12px 5px rgba(0, 0, 0, .12);
+    .area-one{
+        width: 50%;
+        height: 100%;
+    .form-area{
+        width: 350px;
+        height: 600px;
+        position: relative;
+        @include location();
+        .logo-area{
+            img{
+                margin: auto;
+                display: flex;
+            }
+
+        }
+        .title{
+            text-align: center;
+            font-size: 35px;
+        }
+        .first{
+            width: 100%;
+            display: flex;
+            border: none;
+            box-shadow: 1px 2px 6px 0px rgba(0, 0, 0, .12);
+            cursor: pointer;
+            outline: 0;
+        
+            img{
+                width: 25px;
+                margin: 5px 0;
+            }
+            span{
+                margin: auto;
+                font-weight: bold;
+                font-size: 14px;
+            }
+        }
+        .second{
+            display: flex;
+            height: 50px;
+            align-items: center;
+            margin: 12px 0;
+        .line{
+            border: none;
+            height: 1px;
+            width: 80px;
+            background-color: gray;
+}
+        span{
+            color: gray;
+            font-size: 13px;
+            cursor: pointer;
+        }
+ }
+    .login-form{
+        .input{
+            height: 40px;
+            width: 95%;
+            margin: 10px 0;
+            padding-left: 5%;
+            border: none;
+            box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, .12);
+        }
+        .remember-area{
+            margin: 10px 0 25px;
+            label{
+                font-size: 14px;
+                cursor: pointer;
+            }
+            a{
+                position: absolute;
+                right: 0;
+                text-decoration: underline;
+                font-size: 14px;
+                cursor: pointer;
+            }
+            }
+            .send-buton{
+                background-color: $laci;
+                width: 100%;
+                height: 50px;
+                border: none;
+                border-radius: 5px;
+                color: white;
+                font-size: 15px;
+                cursor: pointer;
+
+            }
+            .bottom-line{
+                width: 100%;
+                height: 1px;
+                background-color: gray;
+                border: none;
+                margin: 30px 0;
+
+            }
+            .register-area{
+                justify-content: center;
+                display: flex;
+
+                .signup-buton{
+                    margin-left: 10px;
+                    color: $laci;
+                    text-decoration: underline;
+                    cursor: pointer;
+                    outline: 0;
+                }
+            }
+            
+        }
+        
+    }
+
+        }
+        .area-two{
+            width: 50%;
+            height: 100%;
+            background-color: $bebe;
+            .text-area{
+                position: absolute;
+                right: 0;
+                text-align: end;
+                margin-right: 45px;
+                top: 8%;
+                width: 230px;
+                h4{
+                    font-weight: bold;
+                    font-size: 22px;
+                    margin-bottom: 0;
+                }
+    
+                .learn-button{
+                    border: 1px solid black;
+                    width: 110px;
+                    height: 30px;
+                    float: right;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    .learn{
+                        font-size: 11px;
+                        display: flex;
+                        justify-content: center;
+                        position: relative;
+                        top: 50%;
+                        transform: translate(0,-50%);
+                        font-weight: bold;
+                    }
+                }
+            }
+            .pic-area{
+                width: 715px;
+                height: 400px;
+                position: relative;
+                left: -10%;
+                top: 30%;
+                img{
+                    width: 100%;
+                }
+            }
+  
+        }
+
+    }
+
+}
+

@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page .back-one {
+  width: 50%;
+  height: 100vh;
+  background-color: #e6f2ff;
+}
+
+.page .back-two {
+  width: 50%;
+  height: 100vh;
+  background-color: #1f1f70;
+}
+
+.page .container {
+  width: 1200px;
+  height: 750px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 12px 12px 5px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 12px 12px 5px rgba(0, 0, 0, 0.12);
+}
+
+.page .container .area-one {
+  width: 50%;
+  height: 100%;
+}
+
+.page .container .area-one .form-area {
+  width: 350px;
+  height: 600px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.page .container .area-one .form-area .logo-area img {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page .container .area-one .form-area .title {
+  text-align: center;
+  font-size: 35px;
+}
+
+.page .container .area-one .form-area .first {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+  -webkit-box-shadow: 1px 2px 6px 0px rgba(0, 0, 0, 0.12);
+          box-shadow: 1px 2px 6px 0px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  outline: 0;
+}
+
+.page .container .area-one .form-area .first img {
+  width: 25px;
+  margin: 5px 0;
+}
+
+.page .container .area-one .form-area .first span {
+  margin: auto;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.page .container .area-one .form-area .second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 12px 0;
+}
+
+.page .container .area-one .form-area .second .line {
+  border: none;
+  height: 1px;
+  width: 80px;
+  background-color: gray;
+}
+
+.page .container .area-one .form-area .second span {
+  color: gray;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.page .container .area-one .form-area .login-form .input {
+  height: 40px;
+  width: 95%;
+  margin: 10px 0;
+  padding-left: 5%;
+  border: none;
+  -webkit-box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.12);
+}
+
+.page .container .area-one .form-area .login-form .remember-area {
+  margin: 10px 0 25px;
+}
+
+.page .container .area-one .form-area .login-form .remember-area label {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.page .container .area-one .form-area .login-form .remember-area a {
+  position: absolute;
+  right: 0;
+  text-decoration: underline;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.page .container .area-one .form-area .login-form .send-buton {
+  background-color: #1f1f70;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.page .container .area-one .form-area .login-form .bottom-line {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+  border: none;
+  margin: 30px 0;
+}
+
+.page .container .area-one .form-area .login-form .register-area {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page .container .area-one .form-area .login-form .register-area .signup-buton {
+  margin-left: 10px;
+  color: #1f1f70;
+  text-decoration: underline;
+  cursor: pointer;
+  outline: 0;
+}
+
+.page .container .area-two {
+  width: 50%;
+  height: 100%;
+  background-color: #e6f2ff;
+}
+
+.page .container .area-two .text-area {
+  position: absolute;
+  right: 0;
+  text-align: end;
+  margin-right: 45px;
+  top: 8%;
+  width: 230px;
+}
+
+.page .container .area-two .text-area h4 {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.page .container .area-two .text-area .learn-button {
+  border: 1px solid black;
+  width: 110px;
+  height: 30px;
+  float: right;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.page .container .area-two .text-area .learn-button .learn {
+  font-size: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  font-weight: bold;
+}
+
+.page .container .area-two .pic-area {
+  width: 715px;
+  height: 400px;
+  position: relative;
+  left: -10%;
+  top: 30%;
+}
+
+.page .container .area-two .pic-area img {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
